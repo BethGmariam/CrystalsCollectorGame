@@ -1,0 +1,61 @@
+body {
+    background: url("../images/background.jpg");
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto 50px auto;
+    background-color:rgba(0, 0, 0, 0.6);  
+}
+
+.instruction p{
+    color:ivory;
+    font-size:14px; 
+    text-align: left;
+    padding:0 20px;
+}
+
+.crystal {
+    height: 100px;
+    width: 100px;
+    margin-left:30px; 
+    background-color:white;
+}
+
+.crystalContainer{
+    margin: 15px auto;
+    margin-bottom:50px; 
+}
+
+
+
+
+.targetContainer, .winsLossContainer{
+    height:100px;
+    width:40%;
+    background: green;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom:25px;
+    display:inline-block;
+    margin-left:50px;
+    color:white;
+}
+
+.winsLossContainer{
+    background-color:pink;
+}
+
+h5{
+    padding-top:10px;
+}
+
+
+
+
+
+
+
+

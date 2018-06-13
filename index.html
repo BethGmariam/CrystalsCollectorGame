@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- reset first-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <title>CrystalsCollector</title> 
+    <meta charset="utf-8">
+    <!-- meta tags for responsive layout (to different media)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css style for the layout -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+  <body>
+        <div class="wrapper">
+
+                <!-- bootstrap div class for header-->
+            <div class="alert alert-warning" role="alert" style="font-size:50px;text-align:center">CrystalsCollector!</div>
+           
+            <div class="instruction">
+                <p>You will be given a random number at the start of the game.</p>
+                <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it. </p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+                <div id="targetNumber" class="targetContainer"></div>
+
+                <div id="counter" class="winsLossContainer">
+                    <h5>Wins: <span id="wins"></span></h5>
+                    <h5>Losses: <span id="loss"></span></h5>
+                </div>
+
+                <div class="crystalContainer">
+          
+                    <img src="assets/images/yellowCrystal.jpg" class="crystal thumbnail yellow" alt="yellow">
+                    <img src="assets/images/blueCrystal.jpeg" class="crystal thumbnail blue" alt="blue">
+                    <img src="assets/images/redCrystal.png" class="crystal thumbnail red" alt="red">
+                    <img src="assets/images/mixCrystal.jpg" class="crystal thumbnail mix" alt="mix">
+                </div>
+
+                 <!-- bootstrap div class for result box-->
+                <div class="alert alert-warning" role="alert" style="font-size:30px;text-align:center">Your Total Score: <span id="score"></span> </div> 
+                <div class="instruction" style="height:25px; margin-top:15px"></div>
+        
+        </div>   
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+
+
+
+
+  </body>
+</html>
