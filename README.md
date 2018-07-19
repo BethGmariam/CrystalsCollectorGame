@@ -18,9 +18,9 @@ The game restarts without refreshing the page.
 
 # Built With:
 
-Bootstrap - for css framework.
-jQuery - for logic.
-data-attribute...to evaluate Score.
+Bootstrap - for css framework;
+jQuery - for logic;
+data-attribute-to evaluate Score.
 
 
 
