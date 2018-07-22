@@ -16,6 +16,8 @@ When the game begins again, the player sees a new random number.
 The app shows the number of games the player wins and loses. 
 The game restarts without refreshing the page.
 
+follow the link: https://bethgmariam.github.io/CrystalsCollectorGame/
+
 # Built With:
 
 Bootstrap - for css framework;
